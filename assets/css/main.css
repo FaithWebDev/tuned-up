@@ -10,6 +10,15 @@
 
 #tuned-up-logo {
 	width: 450px;	
+	
+}
+
+#banner  img:hover {
+	transform: scale(1.2)
+}
+
+#banner  img {
+	transition: all .5s ease-in;
 }
 
 .checkmark {
@@ -20,6 +29,17 @@
 #mission  ul li p  {
 	text-transform: none; 
 }
+
+.features > article:hover {
+	transform: scale(1.05)
+}
+
+.features > article{
+	transition: all .5s ease-out;
+}
+
+
+
 
 /* Stuff i've added  */
 
